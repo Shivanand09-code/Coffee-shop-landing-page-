@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-box{
+    background-image: url(shivcoffee.png);
+    background-size: cover;
+    height: 100vh;
+}
+.btn1{
+    color: aliceblue;
+    font-size: 30px;
+    font-weight: 700;
+    position: absolute;
+    left: 16px;
+    line-height: 60px;
+    margin-top: -10px;
+}
+h1{
+    position: absolute;
+    color:wheat;
+    left: 400px;
+    bottom: 500px;
+    margin-top: 300px;
+    font-style:italic ;
+    text-shadow: 1px 1px 3px rgba(210, 183, 132, 0.7);
+}
+h3{
+    position: absolute;
+    color: white;
+    left: 420px;
+    bottom: 420px;
+    margin-top: 300px;
+}
+.sidebar-menu .btn1{
+    font-size: 25px;
+    position: absolute;
+    line-height: 60px;
+    left: 260px;
+    cursor: pointer
+
+}
+.sidebar-menu{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(255, 255, 255, 0.1);
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    left: -350px;
+    margin: 0;
+    justify-content: space-between;
+    margin-top: -30px;
+}
+.sidebar-menu .logo a{
+    position: absolute;
+    width: 100%;
+    line-height: 60px;
+    margin-top: -12px;
+    left: 50px;
+    font-size: 25px;
+    color:rgb(247, 247, 246);
+    text-decoration: none;
+}
+.sidebar-menu .menu {
+    position: fixed;
+    height: 100vh;
+    width: 300px;
+    line-height: 70px;
+    top: 80px;
+    
+}
+
+
+.sidebar-menu .menu li{
+    text-decoration: none;
+    list-style: none;
+    color: azure;
+    margin: 0;
+}
+.menu i{
+    padding: 10px,20px;
+    margin-left: 30px;
+    font-size: 15px;
+    
+}
+.menu a{
+    padding: 30px;
+    color: azure;  
+    text-decoration: none; 
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.social-icons a i{
+    display:inline flex;
+    line-height: 1050px;
+    margin: 20px;
+    margin-left: 30px;
+    font-size: 25px; 
+    text-shadow: 1px 1px 2px rgba(245, 242, 237, 0.7);
+}
+#youtube{
+    color: red;
+
+}
+#facebook{
+    color: rgb(83, 31, 254);
+}
+#instagram{
+    color: rgb(243, 19, 19);
+}
+
+.coffee-menu{
+    display:flex;
+    height: 100vh;
+    align-items:center;
+    justify-content: center;
+}
+.coffee-menu img{
+    height:400px;
+    width: 250px;
+    border-radius: 10%;
+}
+.sidebar-menu .menu li:hover{
+    box-shadow: 0 0 4px rgba(255, 255, 255, 0.5);
+
+}
+#check:checked~.sidebar-menu{
+    left: 0;
+}
+#check{
+    display: none;
+}
+.btn5 label i{
+    margin-top: 30px;
+    padding-left: 10px;
+    font-size: 25px;
+    justify-content: space-between;
+}
+.sidebar-menu:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 6px rgba(172, 30, 30, 0.1);
+
+}
+.btn5:hover{
+    transition-duration: 5s;
+}
+.sidebar-menu .logo a:hover{
+    color: rgb(250, 192, 86);
+    transition-duration: 1.5s;
+}
+h1:hover{
+    color: aliceblue;
+}
